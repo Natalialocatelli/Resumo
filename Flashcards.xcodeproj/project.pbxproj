@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AABF474E282D50A500568DD2 /* FlashcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABF474D282D50A500568DD2 /* FlashcardsApp.swift */; };
+		AA0A385D2832D6460096F991 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A385C2832D6460096F991 /* Notes.swift */; };
+		AA0A38612832DECD0096F991 /* Addnewcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A38602832DECD0096F991 /* Addnewcard.swift */; };
+		AA0A38632833CAF30096F991 /* FlashcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A38622833CAF30096F991 /* FlashcardsApp.swift */; };
+		AA0A3869283690D80096F991 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A3868283690D80096F991 /* CardView.swift */; };
 		AABF4750282D50A500568DD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABF474F282D50A500568DD2 /* ContentView.swift */; };
 		AABF4752282D50A700568DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABF4751282D50A700568DD2 /* Assets.xcassets */; };
 		AABF4755282D50A700568DD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABF4754282D50A700568DD2 /* Preview Assets.xcassets */; };
@@ -34,8 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA0A385C2832D6460096F991 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		AA0A38602832DECD0096F991 /* Addnewcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addnewcard.swift; sourceTree = "<group>"; };
+		AA0A38622833CAF30096F991 /* FlashcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsApp.swift; sourceTree = "<group>"; };
+		AA0A3868283690D80096F991 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AABF474A282D50A500568DD2 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABF474D282D50A500568DD2 /* FlashcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsApp.swift; sourceTree = "<group>"; };
 		AABF474F282D50A500568DD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AABF4751282D50A700568DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AABF4754282D50A700568DD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -94,8 +100,11 @@
 		AABF474C282D50A500568DD2 /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
-				AABF474D282D50A500568DD2 /* FlashcardsApp.swift */,
+				AA0A38622833CAF30096F991 /* FlashcardsApp.swift */,
+				AA0A385C2832D6460096F991 /* Notes.swift */,
+				AA0A38602832DECD0096F991 /* Addnewcard.swift */,
 				AABF474F282D50A500568DD2 /* ContentView.swift */,
+				AA0A3868283690D80096F991 /* CardView.swift */,
 				AABF4751282D50A700568DD2 /* Assets.xcassets */,
 				AABF4753282D50A700568DD2 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0A38612832DECD0096F991 /* Addnewcard.swift in Sources */,
+				AA0A385D2832D6460096F991 /* Notes.swift in Sources */,
+				AA0A38632833CAF30096F991 /* FlashcardsApp.swift in Sources */,
 				AABF4750282D50A500568DD2 /* ContentView.swift in Sources */,
-				AABF474E282D50A500568DD2 /* FlashcardsApp.swift in Sources */,
+				AA0A3869283690D80096F991 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

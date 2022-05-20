@@ -2,7 +2,7 @@
 //  FlashcardsApp.swift
 //  Flashcards
 //
-//  Created by Natalia Locatelli Barbosa on 12/05/22.
+//  Created by Natalia Locatelli Barbosa on 17/05/22.
 //
 
 import SwiftUI
